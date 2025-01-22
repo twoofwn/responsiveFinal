@@ -53,7 +53,7 @@ div{
     }
   }
   
-  /* Large screen view (>= 992px) */
+  
   @media (min-width: 992px) {
     div:nth-child(3n) {
       grid-column: span 2;
@@ -63,18 +63,18 @@ div{
     }
   }
   
-  /* Prefer-reduced-motion media query */
+  
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
     }
   }
   
-  /* Dark mode */
+
   @media (prefers-color-scheme: dark) {
     figure {
       background-color: #333;
-      color: #f4f4f0; /* Light yellow-ish color */
+      color: #f4f4f0; 
       border: 1px solid black;
     }
   }
